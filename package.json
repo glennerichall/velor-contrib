@@ -1,6 +1,6 @@
 {
   "name": "velor-contrib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "npx playwright test"
   },
@@ -18,7 +18,8 @@
     "sinon-chai": "^4.0.0"
   },
   "dependencies": {
-    "velor-utils": "github:glennerichall/velor-utils",
-    "velor-api": "github:glennerichall/velor-api"
+    "velor-api": "github:glennerichall/velor-api",
+    "velor-contrib": "github:glennerichall/velor-contrib",
+    "velor-utils": "github:glennerichall/velor-utils"
   }
 }
