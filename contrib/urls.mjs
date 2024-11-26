@@ -13,3 +13,4 @@ export const URL_LOGIN_FAILURE = `URL_LOGIN_FAILURE`;
 export const URL_LOGIN_SUCCESS = `URL_LOGIN_SUCCESS`;
 export const URL_ADMIN = 'URL_ADMIN';
 export const URL_SYSTEM = 'URL_SYSTEM';
+export const URL_CSRF = 'URL_CSRF';
