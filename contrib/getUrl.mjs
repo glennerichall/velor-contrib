@@ -19,10 +19,10 @@ export function getTokenLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_TOKEN);
 }
 
-export function getMagicLInkLoginUrl(urls) {
+export function getMagicLinkLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_MAGIC_LINK);
 }
 
-export function getGitHubLoginUrl(urls) {
+export function getGithubLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_GITHUB);
 }
