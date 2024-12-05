@@ -1,6 +1,6 @@
 {
   "name": "velor-contrib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "test": "npx playwright test"
   },

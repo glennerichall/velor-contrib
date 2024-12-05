@@ -5,7 +5,7 @@ import {
     AUTH_GOOGLE,
     AUTH_MAGIC_LINK,
     AUTH_TOKEN,
-    AUTH_VELOR
+    AUTH_OPENID
 } from "./authProviders.mjs";
 
 export function getProviderUrl(urls, provider) {
@@ -27,6 +27,6 @@ export function getMagicLinkLoginUrl(urls) {
 export function getGithubLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_GITHUB);
 }
-export function getVelorLoginUrl(urls) {
-    return getProviderUrl(urls, AUTH_VELOR);
+export function getOpenIdLoginUrl(urls) {
+    return getProviderUrl(urls, AUTH_OPENID);
 }
