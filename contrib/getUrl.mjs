@@ -9,7 +9,7 @@ import {
 } from "./authProviders.mjs";
 
 export function getProviderUrl(urls, provider) {
-    return new UrlBuilder(urls[URL_LOGIN]).query({provider}).buildUrl();
+    return new UrlBuilder(urls[URL_LOGIN]).params({provider}).buildUrl();
 }
 
 export function getGoogleLoginUrl(urls) {
