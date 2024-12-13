@@ -4,8 +4,8 @@ import {
     AUTH_GITHUB,
     AUTH_GOOGLE,
     AUTH_MAGIC_LINK,
-    AUTH_TOKEN,
-    AUTH_OPENID
+    AUTH_OPENID,
+    AUTH_TOKEN
 } from "./authProviders.mjs";
 
 export function getProviderUrl(urls, provider) {
@@ -27,6 +27,17 @@ export function getMagicLinkLoginUrl(urls) {
 export function getGithubLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_GITHUB);
 }
+
 export function getOpenIdLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_OPENID);
+}
+
+export function getResourceUrl(urls, resource) {
+    let baseUrl = urls[resource];
+    let oneUrl = `${baseUrl}/:item`;
+
+    return {
+        collection: baseUrl,
+        item: oneUrl,
+    };
 }

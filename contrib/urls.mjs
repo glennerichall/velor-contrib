@@ -1,4 +1,5 @@
 export const URL_API_KEYS = "URL_API_KEYS";
+export const URL_PREFERENCES = "URL_PREFERENCES";
 
 export const URL_FLASH_WARNING = `URL_FLASH_WARNING`;
 export const URL_FLASH_ERROR = `URL_FLASH_ERROR`;
