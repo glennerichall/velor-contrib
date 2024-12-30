@@ -32,12 +32,3 @@ export function getOpenIdLoginUrl(urls) {
     return getProviderUrl(urls, AUTH_OPENID);
 }
 
-export function getResourceUrl(urls, resource) {
-    let baseUrl = urls[resource];
-    let oneUrl = `${baseUrl}/:item`;
-
-    return {
-        collection: baseUrl,
-        item: oneUrl,
-    };
-}
